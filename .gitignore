@@ -13,8 +13,13 @@ target/
 .springBeans
 .sts4-cache
 
+# macOS
 .DS_Store
 **/.DS_Store
+
+# Maven wrapper
+.mvn/wrapper/
+mvnw.cmd
 
 ### IntelliJ IDEA ###
 .idea
