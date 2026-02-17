@@ -12,6 +12,7 @@
 
 ###  Clone the repository
 git clone https://github.com/devnisaev/geospat-travel.git
+
 cd geospat-travel
 
 
