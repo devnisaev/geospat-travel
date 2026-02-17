@@ -10,30 +10,30 @@
 
 ### How to Run
 
-### 1️⃣ Clone the repository
+###  Clone the repository
 git clone https://github.com/devnisaev/geospat-travel.git
 cd geospat-travel
 
 
-### 2️⃣ Build the project
+###  Build the project
 mvn clean install
 
-### 3️⃣ Run the application
+###  Run the application
 mvn spring-boot:run
 
 The application will start on:
 
  http://localhost:8080
 
-### API Usage
+###  API Usage
 Endpoint
 GET /routing/{origin}/{destination}
 
 ✅ Example 
-### GET http://localhost:8080/routing/CZE/ITA
+###  GET http://localhost:8080/routing/CZE/ITA
 
 
-### Response:
+###  Response:
 
 {
 "route": ["CZE", "AUT", "ITA"]
