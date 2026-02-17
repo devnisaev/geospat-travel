@@ -1,51 +1,51 @@
-⚙️ Technologies Used
+# Getting Started
 
-Java 21 (or compatible version)
+### ⚙️ Technologies Used
 
-Spring Boot
+* Java 21 (or compatible version)
+* Spring Boot
+* Maven
+* Jackson (JSON parsing)
 
-Maven
 
-Jackson (JSON parsing)
+### How to Run
 
-
-How to Run
-1️⃣ Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/devnisaev/geospat-travel.git
 cd geospat-travel
 
 
-2️⃣ Build the project
+# 2️⃣ Build the project
 mvn clean install
 
-3️⃣ Run the application
+# 3️⃣ Run the application
 mvn spring-boot:run
 
 The application will start on:
 
-http://localhost:8080
+# http://localhost:8080
 
-API Usage
+### API Usage
 Endpoint
 GET /routing/{origin}/{destination}
 
 ✅ Example 
-GET http://localhost:8080/routing/CZE/ITA
+# GET http://localhost:8080/routing/CZE/ITA
 
 
-Response:
+# Response:
 
 {
 "route": ["CZE", "AUT", "ITA"]
 }
 
-❌ If No Route Exists
+# ❌ If No Route Exists
 
-Example:
+# Example:
 
 GET /routing/ISL/ITA
 
 
-Response:
+# Response:
 
 HTTP 400 Bad Request
